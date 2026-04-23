@@ -22,5 +22,5 @@ System Architecture:
 
 GUI (image):
 
-
+![alt text](<GUI Image.png>)
 Installation Instructions and User Manual:
