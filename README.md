@@ -15,9 +15,12 @@ There are three states : Normal , Warning and Flood risk . The warning default l
 Features:
 
 Hardware Components:
+![alt text](image-1.png)
 
 System Architecture:
+![alt text](image.png)
 
 GUI (image):
+
 
 Installation Instructions and User Manual:
