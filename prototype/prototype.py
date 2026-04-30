@@ -13,7 +13,9 @@ import os.path
 
 _location = os.path.dirname(__file__)
 
-import first_prototype_support
+# from Project import prototype_support
+# from Project import prototype_support
+import prototype_support
 
 _bgcolor = '#d9d9d9'
 _fgcolor = '#000000'
@@ -27,7 +29,7 @@ _style_code_ran = 0
 def _style_code():
     global _style_code_ran
     if _style_code_ran: return        
-    try: first_prototype_support.root.tk.call('source',
+    try: prototype_support.root.tk.call('source',
                 os.path.join(_location, 'themes', 'default.tcl'))
     except: pass
     style = ttk.Style()
@@ -122,7 +124,7 @@ Control''')
         ########### end #######################
 
         _style_code()
-        self.led_label = ttk.Label(self.top)
+        self.led_label = tk.Label(self.top)
         self.led_label.place(x=170, y=270, height=37, width=114)
         self.led_label.configure(background="#ffff00")
         self.led_label.configure(font="TkDefaultFont")
@@ -150,10 +152,10 @@ Alarm''')
         self.display_label.configure(cursor="fleur")
 
 def start_up():
-    first_prototype_support.main()
+    prototype_support.main()
 
 if __name__ == '__main__':
-    first_prototype_support.main()
+    prototype_support.main()
 
 
 
