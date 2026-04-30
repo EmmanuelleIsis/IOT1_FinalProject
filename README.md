@@ -1,26 +1,25 @@
 # IOT1_FinalProject
 
-Title: Internet of Things 1 Final Project
+Title: Flood Monitoring System
 
-summary : 
-In spring, temperature fluctuations and the melting of snow and ice cause water levels to rise, which can lead to significant property damage. However, if these changes are detected early, the resulting damage can be drastically reduced.
-My team and I decided to develop an application to help users manage water levels and temperatures. The app evaluates flood risk, warns local users, and automatically activates a motorized flood gate when danger is detected. With this application, users can stay informed of potential hazards and avoid serious consequences.
+Summary : 
+During the spring season, rapid temperature fluctuations and melting snow often lead to rising water levels and significant property damage; however, early detection can drastically reduce these risks. Our team developed an IoT application designed to help users monitor and manage these environmental changes by evaluating flood risks, issuing immediate warnings, and automatically activating a motorized flood gate when danger is detected. This system operates based on real-time sensor inputs, primarily utilizing water level measurements in centimeters to dictate the system state, while temperature data in Celsius is collected for telemetry and tracking. To ensure flexibility, we integrated a rotary encoder, allowing users to manually adjust the critical water level threshold to suit specific environmental needs. The application is designed to be user-friendly, with a simple and intuitive interface that enables users to quickly and easily monitor the flood risks and take appropriate action.
 
 How the app will work :
-
-The app will measure the water level in cm and this controls the system state.
-The temperature will be in Celsius and this works for the telemetry only. 
-There are three states : Normal , Warning and Flood risk . The warning default level starts at 5 cm and at 10 cm, it becomes a critical. In the app , when the state is normal , the blue LED turns on, when the state is at warning, the yellow LED turns on and the buzzer beeps every two seconds. When the state is at flood risk the red LED turns on and the buzzer beeps continuously and the fan is on. Also, we decided to add a rotary encoder which the user will use to manually set the critical water level threshold. 
+The application functions through three distinct operational states that trigger specific hardware responses to keep users informed. In the Normal State, characterized by water levels below 5 cm, a blue LED remains illuminated to indicate safety with no active alerts. Once the water level reaches the 5 cm warning threshold, a yellow LED activates and a buzzer beeps at two-second intervals to signal caution. If the water reaches the 10 cm critical threshold or the user-defined limit set by the rotary encoder, the system enters the Flood Risk state, which triggers a red LED, continuous buzzing for maximum urgency, and the activation of a fan to simulate the deployment of a motorized flood gate.
 
 Features:
 
 Hardware Components:
-![alt text](image-1.png)
+
+![alt text](<Hardware Components.png>)
 
 System Architecture:
-![alt text](image.png)
+
+![alt text](<System Architecture.png>)
 
 GUI (image):
+
 ![alt text](<GUI Image.png>)
 
 Installation Instructions and User Manual:
