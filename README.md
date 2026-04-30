@@ -21,3 +21,18 @@ System Architecture:
 GUI (image):
 
 Installation Instructions and User Manual:
+
+
+GUI  : update
+
+When we click on the decrease button it displays in the display label, and the led change from yellow to green to simulate the normal temperature and safety with no alerts. Same for the increase button, when it is pressed it displays in the display label: Increase pressed and the led changes from green to yellow.
+
+User manual : How to run the program?
+
+First, we have the language button to switch from English to French and vice versa. On a label, we have the water level and the temperature that has been set. The water level can be changed using the increase and decrease button. We also have a WARNING label, for the critical levels. The Silence alarm button should be pressed to stop the buzzer and the control button is pressed to stop the gate and the fan.
+We have the ON/OFF button to ON the system, and the OFF to switch OFF the system.
+
+documentation of all the test
+
+gui : connect the gui to the ras, and i run it in the terminal so when we press a button it will work , 
+cloud : connect the temp and the sensor to the ras then publish the data amazon aws iot core  and the data got transfert to  amazon dynamo db and collected data
