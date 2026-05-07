@@ -109,3 +109,98 @@ A rotary encoder and GUI buttons allow the user to manually adjust the critical 
 
 ---
 
+# Installation Instructions
+
+## 1. Clone the Repository
+
+```bash
+git clone <your-repository-link>
+cd <The folder name>
+```
+
+## 2. Install Required Libraries
+
+```bash
+pip install gpiozero
+pip install RPi.GPIO
+```
+
+## 3. Enable GPIO Interfaces
+
+Enable:
+- GPIO
+- 1-Wire Interface
+
+Using:
+
+```bash
+sudo raspi-config
+```
+
+Then reboot the Raspberry Pi.
+
+---
+
+# User Manual
+
+## Starting the System
+
+Run the application using:
+
+```bash
+python3 flood_support.py
+```
+
+---
+
+## Using the System
+
+### Normal State
+- Blue LED indicates safe water level.
+
+### Warning State
+- Yellow LED indicates rising water level.
+- Buzzer beeps every 2 seconds.
+
+### Flood Risk State
+- Red LED indicates dangerous water level.
+- Continuous buzzer alarm activates.
+- Fan/flood gate activates automatically.
+
+---
+
+## Buttons
+
+### Silence Alarm Button
+- Stops the buzzer temporarily.
+
+### Manual Gate Control Button
+- Enables or disables automatic fan/flood gate operation.
+
+### Increase/Decrease Buttons
+- Adjust the critical flood level manually.
+
+### Rotary Encoder
+- Also adjusts the critical flood level.
+
+### ON/OFF Button
+- Turns the monitoring system ON or OFF.
+
+### Language Button
+- Switches between English and French.
+
+---
+
+# Notes
+
+- The fan must be connected through a motor driver.
+- The passive buzzer uses PWM to generate sound.
+
+---
+
+# Authors
+
+- Emmanuelle
+- Elisha
+- Nelly
+
