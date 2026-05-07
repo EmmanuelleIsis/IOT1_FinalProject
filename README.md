@@ -63,7 +63,7 @@ A rotary encoder and GUI buttons allow the user to manually adjust the critical 
 
 # Hardware Components
 
-![alt text](<Hardware Image.png>)
+![alt text](<Hardware Inventory Table.png>)
 
 - Raspberry Pi
 - Ultrasonic Distance Sensor
@@ -82,7 +82,7 @@ A rotary encoder and GUI buttons allow the user to manually adjust the critical 
 
 # System Architecture
 
-![alt text](<System Architecture Image.png>)
+![alt text](<System Architecture Diagram.png>)
 
 ## GPIO Connections
 
