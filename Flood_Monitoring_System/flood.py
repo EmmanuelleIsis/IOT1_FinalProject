@@ -13,7 +13,7 @@ import os.path
 
 _location = os.path.dirname(__file__)
 
-import flood_support
+import Flood_Monitoring_System.flood_support as flood_support
 
 _bgcolor = '#d9d9d9'
 _fgcolor = '#000000'
