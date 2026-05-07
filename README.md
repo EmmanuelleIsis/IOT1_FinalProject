@@ -1,7 +1,7 @@
 # IOT1_FinalProject
 
 ## Title
-Flood Monitoring System
+Smart Flood Early Warning System
 
 ---
 
@@ -105,7 +105,7 @@ A rotary encoder and GUI buttons allow the user to manually adjust the critical 
 
 # GUI
 
-![alt text](<GUI Image.png>)
+![GUI Screenshot](Final GUI/GUI Image.png)
 
 ---
 
