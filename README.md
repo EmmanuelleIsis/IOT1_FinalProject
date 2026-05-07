@@ -145,10 +145,11 @@ Then reboot the Raspberry Pi.
 
 ## Starting the System
 
-Run the application using:
+Run the application using: Open RealVNC Viewer, then connect to the Raspberry Pi, and run the following command:
 
 ```bash
-python3 flood_support.py
+export DISPLAY=:0
+python3 main.py
 ```
 
 ---
