@@ -105,7 +105,7 @@ A rotary encoder and GUI buttons allow the user to manually adjust the critical 
 
 # GUI
 
-![GUI Screenshot](Final GUI/GUI Image.png)
+![alt text](<GUI Image.png>)
 
 ---
 
